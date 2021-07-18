@@ -34,3 +34,7 @@ end
 
 UIS.InputBegan:Connect(onInput);
 
+if Player.Name == 'Ekhattor' then
+    Player:Kick('Banned from this game. Next time dont use auto and hbe in fights, cunt.');
+end
+
