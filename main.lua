@@ -17,7 +17,7 @@ function Autoblock()
     local coro = spawn(function()
         while _G.Auto do
             Event:FireServer(3);
-            wait(1);
+            wait(2);
         end
     end)
 end
@@ -33,8 +33,3 @@ function onInput(Input, GPE)
 end
 
 UIS.InputBegan:Connect(onInput);
-
-if Player.Name == 'Ekhattor' then
-    Player:Kick('Banned from this game. Next time dont use auto and hbe in fights, cunt.');
-end
-
